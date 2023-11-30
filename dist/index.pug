@@ -1,0 +1,83 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module parse failed: Unexpected token (1:0)
+  File was processed with these loaders:
+   * ./node_modules/html-webpack-plugin/lib/loader.js
+   * ./node_modules/pug-plain-loader/index.js
+  You may need an additional loader to handle the result of these loaders.
+  > <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width  , initial-scale=1.0"><title>Metalamp</title><link rel="stylesheet" href="main.css"><script defer src="main.bundle.js"></script></head><body><h1>Привет мир!</h1></body></html>
+  ModuleParseError: Module parse failed: Unexpected token (1:0)
+  File was processed with these loaders:
+   * ./node_modules/html-webpack-plugin/lib/loader.js
+   * ./node_modules/pug-plain-loader/index.js
+  You may need an additional loader to handle the result of these loaders.
+  > <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width  , initial-scale=1.0"><title>Metalamp</title><link rel="stylesheet" href="main.css"></head><body><h1>Привет мир!</h1></body></html>
+      at handleParseError (C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\webpack\lib\NormalModule.js:982:19)
+      at C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\webpack\lib\NormalModule.js:1101:5
+      at processResult (C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\webpack\lib\NormalModule.js:806:11)
+      at C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\webpack\lib\NormalModule.js:866:5
+      at C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\loader-runner\lib\LoaderRunner.js:407:3
+      at iterateNormalLoaders (C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\loader-runner\lib\LoaderRunner.js:233:10)
+      at iterateNormalLoaders (C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\loader-runner\lib\LoaderRunner.js:240:10)
+      at C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\loader-runner\lib\LoaderRunner.js:255:3
+      at runSyncOrAsync (C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\loader-runner\lib\LoaderRunner.js:143:11)
+      at iterateNormalLoaders (C:\Users\rinat\OneDrive\Документы\GitHub\metalamp-2-step\node_modules\loader-runner\lib\LoaderRunner.js:251:2)
+  
+  - NormalModule.js:982 handleParseError
+    [metalamp-2-step]/[webpack]/lib/NormalModule.js:982:19
+  
+  - NormalModule.js:1101 
+    [metalamp-2-step]/[webpack]/lib/NormalModule.js:1101:5
+  
+  - NormalModule.js:806 processResult
+    [metalamp-2-step]/[webpack]/lib/NormalModule.js:806:11
+  
+  - NormalModule.js:866 
+    [metalamp-2-step]/[webpack]/lib/NormalModule.js:866:5
+  
+  - LoaderRunner.js:407 
+    [metalamp-2-step]/[loader-runner]/lib/LoaderRunner.js:407:3
+  
+  - LoaderRunner.js:233 iterateNormalLoaders
+    [metalamp-2-step]/[loader-runner]/lib/LoaderRunner.js:233:10
+  
+  - LoaderRunner.js:240 iterateNormalLoaders
+    [metalamp-2-step]/[loader-runner]/lib/LoaderRunner.js:240:10
+  
+  - LoaderRunner.js:255 
+    [metalamp-2-step]/[loader-runner]/lib/LoaderRunner.js:255:3
+  
+  - LoaderRunner.js:143 runSyncOrAsync
+    [metalamp-2-step]/[loader-runner]/lib/LoaderRunner.js:143:11
+  
+  - LoaderRunner.js:251 iterateNormalLoaders
+    [metalamp-2-step]/[loader-runner]/lib/LoaderRunner.js:251:2
+  
+  - child-compiler.js:169 
+    [metalamp-2-step]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:551 finalCallback
+    [metalamp-2-step]/[webpack]/lib/Compiler.js:551:5
+  
+  - Compiler.js:577 
+    [metalamp-2-step]/[webpack]/lib/Compiler.js:577:11
+  
+  - Compiler.js:1200 
+    [metalamp-2-step]/[webpack]/lib/Compiler.js:1200:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [metalamp-2-step]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1196 
+    [metalamp-2-step]/[webpack]/lib/Compiler.js:1196:33
+  
+  - Compilation.js:2795 finalCallback
+    [metalamp-2-step]/[webpack]/lib/Compilation.js:2795:11
+  
+  - Compilation.js:3100 
+    [metalamp-2-step]/[webpack]/lib/Compilation.js:3100:11
+  
+  
+</pre>
