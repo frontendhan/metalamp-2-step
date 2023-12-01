@@ -1,9 +1,11 @@
-@import url(fonts/fonts.scss);
+@import 'fonts/fonts.scss';
+@import 'colors/colors.scss';
 
 h1 {
     font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 body {
-    background-color: red;
+    background-color: $dark_100;
 }
